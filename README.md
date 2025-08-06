@@ -32,9 +32,9 @@ This project simulates, ingests, transforms, and analyzes clickstream data using
    ↓
 [SNS NotifySuccess or NotifyFailure]
 
-<img width="708" height="723" alt="image" src="https://github.com/user-attachments/assets/79ee2ea6-e18e-4765-b86f-27e3c29d916e" />
 
 ```
+<img width="708" height="723" alt="image" src="https://github.com/user-attachments/assets/c6655af1-61f2-4471-91d8-f481f00ebc25" />
 
 ---
 
