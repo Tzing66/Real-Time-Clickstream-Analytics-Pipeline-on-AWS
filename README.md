@@ -115,7 +115,7 @@ LOCATION 's3://clickstream-processed-data-tanzini/'
 
 ---
 
-## 📌 Next Steps (Optional Improvements)
+## 📌 Next Steps
 - Add monitoring/alerts using CloudWatch Alarms.
 - Store Athena results in a database or visualize in QuickSight.
 - Add a CDK/Terraform deployment script.
