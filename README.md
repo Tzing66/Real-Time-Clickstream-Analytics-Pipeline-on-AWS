@@ -8,7 +8,7 @@ This project simulates, ingests, transforms, and analyzes clickstream data using
 
 | File/Resource | Description |
 |---------------|-------------|
-| `clickstream-simulator-lambda.zip` | Lambda deployment package to simulate clickstream events into a Kinesis stream. |
+| `simulate_lambda.zip` | Lambda deployment package to simulate clickstream events into a Kinesis stream. Also includes `faker`|
 | `lambda_function.py` | Python Lambda script to simulate one event/second for 20 seconds using `faker` and send to Kinesis. |
 | `glue_etl_script.py` | AWS Glue job script to read raw JSON from S3, flatten geo fields, convert timestamps, and write to the processed zone partitioned by date. |
 | `state_machine_definition.json` | Step Function JSON definition that orchestrates the pipeline. |
