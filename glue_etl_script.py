@@ -71,8 +71,8 @@ job.commit()
 # job = Job(glueContext)
 # job.init(args['JOB_NAME'], args)
 
-# input_path = "s3://clickstream-raw-data-tanzini/"
-# output_path = "s3://clickstream-processed-data-tanzini/debug-output/"
+# input_path = "s3:///"
+# output_path = "s3:///"
 
 # df = spark.read.option("recursiveFileLookup", "true").json(input_path)
 # df = df.withColumn("event_time", to_timestamp("event_time"))
@@ -82,3 +82,4 @@ job.commit()
 # df.write.mode("overwrite").parquet(output_path)
 
 # job.commit()
+
