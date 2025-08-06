@@ -9,6 +9,7 @@ from pyspark.sql.types import StructType, StringType
 
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 
+
 sc = SparkContext()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
@@ -82,4 +83,5 @@ job.commit()
 # df.write.mode("overwrite").parquet(output_path)
 
 # job.commit()
+
 
