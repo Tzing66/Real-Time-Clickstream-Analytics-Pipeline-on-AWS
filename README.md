@@ -31,6 +31,9 @@ This project simulates, ingests, transforms, and analyzes clickstream data using
 [Athena Query: MSCK REPAIR TABLE]
    ↓
 [SNS NotifySuccess or NotifyFailure]
+
+<img width="708" height="723" alt="image" src="https://github.com/user-attachments/assets/79ee2ea6-e18e-4765-b86f-27e3c29d916e" />
+
 ```
 
 ---
