@@ -111,8 +111,8 @@ LOCATION 's3://clickstream-processed-data-tanzini/'
 
 ## 📝 Notes
 
-- Ensure IAM roles have policies for Kinesis, Lambda, Glue, Athena, and SNS.
-- Use CloudWatch Logs for debugging if anything fails.
+- Ensure IAM roles have policies for Kinesis, Lambda, Glue, Athena, and SNS. - this is where most of the bugs will arise.
+- Use CloudWatch Logs for debugging if anything fails. - as long as you know where to look. 
 - Adjust simulation duration by changing the loop in `lambda_function.py`.
 
 ---
