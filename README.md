@@ -97,7 +97,7 @@ LOCATION 's3://clickstream-processed-data-tanzini/'
 ### 7. **Configure Step Function**
 - Use the `state_machine_definition.json`.
 - Link Lambda, Glue, Athena, and SNS steps.
-- Attach IAM role with full permissions.
+- Attach IAM role with full permissions (or least permissions - but for your own local work you might as well attach full permissions, especially as a beginner).
 
 ### 8. **Create SNS Topics**
 - Create topics `PipelineSuccess` and `PipelineFailure`.
