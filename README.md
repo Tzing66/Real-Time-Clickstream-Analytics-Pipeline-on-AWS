@@ -12,8 +12,6 @@ This project simulates, ingests, transforms, and analyzes clickstream data using
 | `lambda_function.py` | Python Lambda script to simulate one event/second for 20 seconds using `faker` and send to Kinesis. |
 | `glue_etl_script.py` | AWS Glue job script to read raw JSON from S3, flatten geo fields, convert timestamps, and write to the processed zone partitioned by date. |
 | `state_machine_definition.json` | Step Function JSON definition that orchestrates the pipeline. |
-| `stepfunction-role` | IAM role with permissions for Lambda, Glue, Athena, Kinesis, and SNS actions. |
-| `SNS topic` | Notifies success/failure of the Step Function via email. |
 
 ---
 
